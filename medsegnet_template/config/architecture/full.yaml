@@ -1,0 +1,7 @@
+defaults:
+  - backbone-unet3d
+
+path:
+  _target_: models.ms_full_res_to_all_unet3d.MSUNet3D
+name: ms-unet3d
+cons_loss_start_epoch: 0

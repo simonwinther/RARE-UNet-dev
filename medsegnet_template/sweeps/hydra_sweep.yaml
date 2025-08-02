@@ -1,0 +1,84 @@
+program: tr
+method: bayes
+metric:
+  goal: minimize
+  name: val/loss
+
+command:
+  - ${program}
+  - ${args_no_hyphens}
+
+parameters:
+  # This parameter will set `training.optimizer.name` in your Hydra config.
+  # Your `_target_: torch.optim.${..name}` will then use this value.
+  training.optimizer.name:
+    distribution: categorical
+    values:
+      - Adam
+      - AdamW
+
+  # This parameter sets `training.learning_rate`.
+  # Your `lr: ${...learning_rate}` (within training.optimizer.params) will resolve to this.
+  training.learning_rate:
+    min: 5.0e-05
+    max: 0.001
+    distribution: uniform
+
+  # This parameter sets `training.optimizer.params.weight_decay`.
+  training.optimizer.params.weight_decay:
+    min: 1.0e-06
+    max: 0.0005
+    distribution: uniform
+
+  # Other training parameters (remain as they were)
+  training.num_epochs:
+    min: 20
+    max: 65
+    distribution: int_uniform
+
+  # Early Stopping hyperparameter
+
+  training.batch_size:
+    min: 1
+    max: 8
+    distribution: int_uniform
+  training.grad_clip_norm:
+    min: 1
+    max: 3
+    distribution: int_uniform
+
+  # Loss parameters (how much to weight cross entropy vs dice loss)
+  training.loss.params.alpha:
+    min: 0.1
+    max: 0.7
+    distribution: uniform
+
+  # Scheduler parameters
+  training.scheduler.params.step_size:
+    min: 10
+    max: 50
+    distribution: int_uniform
+  training.scheduler.params.gamma:
+    min: 0.05
+    max: 0.3
+    distribution: uniform
+
+  # Architecture parameters
+  architecture.depth:
+    min: 3
+    max: 6
+    distribution: int_uniform
+  architecture.n_filters:
+    min: 4
+    max: 24
+    distribution: int_uniform
+  architecture.dropout:
+    min: 0.0
+    max: 0.5
+    distribution: uniform
+
+  # W&B specific parameters
+  wandb.name:
+    values:
+      - sweep_run_${now:%Y-%m-%d_%H-%M-%S}
+    distribution: categorical

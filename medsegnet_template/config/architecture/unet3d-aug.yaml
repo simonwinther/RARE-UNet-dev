@@ -1,0 +1,7 @@
+defaults:
+  - unet3d
+
+path:
+  _target_: models.UNetAug.UNetAugmented
+name: unet-aug3d
+pp: bb-aug

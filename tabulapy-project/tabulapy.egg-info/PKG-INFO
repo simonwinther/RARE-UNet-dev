@@ -1,0 +1,37 @@
+Metadata-Version: 2.2
+Name: tabulapy
+Version: 1.0.0
+Summary: A sophisticated library for generating complex LaTeX tables.
+Home-page: https://github.com/simonsejse/tabulapy
+Author: Your Name
+Author-email: simonwa01@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Text Processing :: Markup :: LaTeX
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# TabulaPy
+
+A sophisticated Python library for generating complex, publication-ready LaTeX tables.
+
+## Installation
+
+```bash
+pip install -e .
+```
+
+## Usage
+
+See the `examples/` directory for usage.

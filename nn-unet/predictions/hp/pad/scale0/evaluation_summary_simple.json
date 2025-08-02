@@ -1,0 +1,1388 @@
+{
+    "foreground_mean": {
+        "Dice": 0.8796844696538606,
+        "FN": 194.7403846153846,
+        "FP": 206.43269230769232,
+        "IoU": 0.7869103386226611,
+        "TN": 63636.605769230766,
+        "TP": 1498.2211538461538,
+        "n_pred": 1704.6538461538462,
+        "n_ref": 1692.9615384615386
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.8887286534117423,
+            "FN": 171.25,
+            "FP": 217.8846153846154,
+            "IoU": 0.8012843872605955,
+            "TN": 63552.192307692305,
+            "TP": 1594.673076923077,
+            "n_pred": 1812.5576923076924,
+            "n_ref": 1765.923076923077
+        },
+        "2": {
+            "Dice": 0.870640285895979,
+            "FN": 218.23076923076923,
+            "FP": 194.98076923076923,
+            "IoU": 0.7725362899847268,
+            "TN": 63721.019230769234,
+            "TP": 1401.7692307692307,
+            "n_pred": 1596.75,
+            "n_ref": 1620.0
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8813353566009104,
+                    "FN": 98,
+                    "FP": 293,
+                    "IoU": 0.7878459034183397,
+                    "TN": 63693,
+                    "TP": 1452,
+                    "n_pred": 1745,
+                    "n_ref": 1550
+                },
+                "2": {
+                    "Dice": 0.861055634807418,
+                    "FN": 294,
+                    "FP": 193,
+                    "IoU": 0.7560120240480962,
+                    "TN": 63540,
+                    "TP": 1509,
+                    "n_pred": 1702,
+                    "n_ref": 1803
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_003.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_003.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9176533907427341,
+                    "FN": 207,
+                    "FP": 99,
+                    "IoU": 0.8478368970661363,
+                    "TN": 63525,
+                    "TP": 1705,
+                    "n_pred": 1804,
+                    "n_ref": 1912
+                },
+                "2": {
+                    "Dice": 0.8866296980899568,
+                    "FN": 105,
+                    "FP": 263,
+                    "IoU": 0.7963475373547316,
+                    "TN": 63729,
+                    "TP": 1439,
+                    "n_pred": 1702,
+                    "n_ref": 1544
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_011.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_011.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8690360272638754,
+                    "FN": 232,
+                    "FP": 306,
+                    "IoU": 0.7684029272492466,
+                    "TN": 63213,
+                    "TP": 1785,
+                    "n_pred": 2091,
+                    "n_ref": 2017
+                },
+                "2": {
+                    "Dice": 0.830441400304414,
+                    "FN": 241,
+                    "FP": 316,
+                    "IoU": 0.7100468505986466,
+                    "TN": 63615,
+                    "TP": 1364,
+                    "n_pred": 1680,
+                    "n_ref": 1605
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_014.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_014.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8737244897959183,
+                    "FN": 141,
+                    "FP": 255,
+                    "IoU": 0.7757644394110985,
+                    "TN": 63770,
+                    "TP": 1370,
+                    "n_pred": 1625,
+                    "n_ref": 1511
+                },
+                "2": {
+                    "Dice": 0.8446927374301676,
+                    "FN": 174,
+                    "FP": 243,
+                    "IoU": 0.7311411992263056,
+                    "TN": 63985,
+                    "TP": 1134,
+                    "n_pred": 1377,
+                    "n_ref": 1308
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_015.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_015.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8867562380038387,
+                    "FN": 131,
+                    "FP": 282,
+                    "IoU": 0.7965517241379311,
+                    "TN": 63506,
+                    "TP": 1617,
+                    "n_pred": 1899,
+                    "n_ref": 1748
+                },
+                "2": {
+                    "Dice": 0.8728070175438597,
+                    "FN": 228,
+                    "FP": 236,
+                    "IoU": 0.77431906614786,
+                    "TN": 63480,
+                    "TP": 1592,
+                    "n_pred": 1828,
+                    "n_ref": 1820
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_023.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_023.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9184508058696175,
+                    "FN": 129,
+                    "FP": 210,
+                    "IoU": 0.8491992882562278,
+                    "TN": 63288,
+                    "TP": 1909,
+                    "n_pred": 2119,
+                    "n_ref": 2038
+                },
+                "2": {
+                    "Dice": 0.9088669950738916,
+                    "FN": 144,
+                    "FP": 152,
+                    "IoU": 0.8329571106094809,
+                    "TN": 63764,
+                    "TP": 1476,
+                    "n_pred": 1628,
+                    "n_ref": 1620
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_039.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_039.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9100418410041841,
+                    "FN": 166,
+                    "FP": 178,
+                    "IoU": 0.8349328214971209,
+                    "TN": 63452,
+                    "TP": 1740,
+                    "n_pred": 1918,
+                    "n_ref": 1906
+                },
+                "2": {
+                    "Dice": 0.9164246531139078,
+                    "FN": 119,
+                    "FP": 140,
+                    "IoU": 0.8457415128052412,
+                    "TN": 63857,
+                    "TP": 1420,
+                    "n_pred": 1560,
+                    "n_ref": 1539
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_040.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_040.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8307515777395296,
+                    "FN": 329,
+                    "FP": 261,
+                    "IoU": 0.7105004906771345,
+                    "TN": 63498,
+                    "TP": 1448,
+                    "n_pred": 1709,
+                    "n_ref": 1777
+                },
+                "2": {
+                    "Dice": 0.837909186906019,
+                    "FN": 399,
+                    "FP": 215,
+                    "IoU": 0.7210358927760109,
+                    "TN": 63335,
+                    "TP": 1587,
+                    "n_pred": 1802,
+                    "n_ref": 1986
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_041.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_041.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9130688448074679,
+                    "FN": 127,
+                    "FP": 171,
+                    "IoU": 0.8400429414922168,
+                    "TN": 63673,
+                    "TP": 1565,
+                    "n_pred": 1736,
+                    "n_ref": 1692
+                },
+                "2": {
+                    "Dice": 0.8896551724137931,
+                    "FN": 109,
+                    "FP": 243,
+                    "IoU": 0.8012422360248447,
+                    "TN": 63765,
+                    "TP": 1419,
+                    "n_pred": 1662,
+                    "n_ref": 1528
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_044.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_044.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9277546777546778,
+                    "FN": 180,
+                    "FP": 98,
+                    "IoU": 0.8652447891420262,
+                    "TN": 63473,
+                    "TP": 1785,
+                    "n_pred": 1883,
+                    "n_ref": 1965
+                },
+                "2": {
+                    "Dice": 0.9157054125998225,
+                    "FN": 220,
+                    "FP": 65,
+                    "IoU": 0.8445171849427169,
+                    "TN": 63703,
+                    "TP": 1548,
+                    "n_pred": 1613,
+                    "n_ref": 1768
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_056.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_056.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9230769230769231,
+                    "FN": 106,
+                    "FP": 217,
+                    "IoU": 0.8571428571428571,
+                    "TN": 63275,
+                    "TP": 1938,
+                    "n_pred": 2155,
+                    "n_ref": 2044
+                },
+                "2": {
+                    "Dice": 0.9084017687934302,
+                    "FN": 178,
+                    "FP": 112,
+                    "IoU": 0.8321759259259259,
+                    "TN": 63808,
+                    "TP": 1438,
+                    "n_pred": 1550,
+                    "n_ref": 1616
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_064.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_064.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9127708095781072,
+                    "FN": 129,
+                    "FP": 177,
+                    "IoU": 0.8395385422128998,
+                    "TN": 63629,
+                    "TP": 1601,
+                    "n_pred": 1778,
+                    "n_ref": 1730
+                },
+                "2": {
+                    "Dice": 0.9294148517449489,
+                    "FN": 149,
+                    "FP": 120,
+                    "IoU": 0.8681372549019608,
+                    "TN": 63496,
+                    "TP": 1771,
+                    "n_pred": 1891,
+                    "n_ref": 1920
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_065.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_065.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9153178512784425,
+                    "FN": 159,
+                    "FP": 202,
+                    "IoU": 0.8438581314878892,
+                    "TN": 63224,
+                    "TP": 1951,
+                    "n_pred": 2153,
+                    "n_ref": 2110
+                },
+                "2": {
+                    "Dice": 0.8829908675799086,
+                    "FN": 221,
+                    "FP": 189,
+                    "IoU": 0.7904956566172713,
+                    "TN": 63579,
+                    "TP": 1547,
+                    "n_pred": 1736,
+                    "n_ref": 1768
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_088.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_088.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8671679197994987,
+                    "FN": 205,
+                    "FP": 272,
+                    "IoU": 0.7654867256637168,
+                    "TN": 63502,
+                    "TP": 1557,
+                    "n_pred": 1829,
+                    "n_ref": 1762
+                },
+                "2": {
+                    "Dice": 0.8770799785292539,
+                    "FN": 346,
+                    "FP": 112,
+                    "IoU": 0.7810707456978967,
+                    "TN": 63444,
+                    "TP": 1634,
+                    "n_pred": 1746,
+                    "n_ref": 1980
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_093.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_093.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9148041602124364,
+                    "FN": 295,
+                    "FP": 90,
+                    "IoU": 0.8429853181076672,
+                    "TN": 63084,
+                    "TP": 2067,
+                    "n_pred": 2157,
+                    "n_ref": 2362
+                },
+                "2": {
+                    "Dice": 0.8982947624847747,
+                    "FN": 192,
+                    "FP": 142,
+                    "IoU": 0.8153676064123825,
+                    "TN": 63727,
+                    "TP": 1475,
+                    "n_pred": 1617,
+                    "n_ref": 1667
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_094.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_094.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8956562795089708,
+                    "FN": 294,
+                    "FP": 148,
+                    "IoU": 0.8110303548525011,
+                    "TN": 63197,
+                    "TP": 1897,
+                    "n_pred": 2045,
+                    "n_ref": 2191
+                },
+                "2": {
+                    "Dice": 0.8597541758588086,
+                    "FN": 230,
+                    "FP": 215,
+                    "IoU": 0.754007739082366,
+                    "TN": 63727,
+                    "TP": 1364,
+                    "n_pred": 1579,
+                    "n_ref": 1594
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_095.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_095.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9278428409520212,
+                    "FN": 126,
+                    "FP": 65,
+                    "IoU": 0.8653981677237491,
+                    "TN": 64117,
+                    "TP": 1228,
+                    "n_pred": 1293,
+                    "n_ref": 1354
+                },
+                "2": {
+                    "Dice": 0.9070110701107011,
+                    "FN": 170,
+                    "FP": 82,
+                    "IoU": 0.8298446995273464,
+                    "TN": 64055,
+                    "TP": 1229,
+                    "n_pred": 1311,
+                    "n_ref": 1399
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_097.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_097.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9041934496479951,
+                    "FN": 235,
+                    "FP": 78,
+                    "IoU": 0.8251396648044693,
+                    "TN": 63746,
+                    "TP": 1477,
+                    "n_pred": 1555,
+                    "n_ref": 1712
+                },
+                "2": {
+                    "Dice": 0.8996450467892869,
+                    "FN": 123,
+                    "FP": 188,
+                    "IoU": 0.8175953079178886,
+                    "TN": 63831,
+                    "TP": 1394,
+                    "n_pred": 1582,
+                    "n_ref": 1517
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_123.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_123.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9170824423853647,
+                    "FN": 144,
+                    "FP": 205,
+                    "IoU": 0.8468626590609917,
+                    "TN": 63257,
+                    "TP": 1930,
+                    "n_pred": 2135,
+                    "n_ref": 2074
+                },
+                "2": {
+                    "Dice": 0.8914879792072774,
+                    "FN": 90,
+                    "FP": 244,
+                    "IoU": 0.8042203985932005,
+                    "TN": 63830,
+                    "TP": 1372,
+                    "n_pred": 1616,
+                    "n_ref": 1462
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_145.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_145.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.931219512195122,
+                    "FN": 108,
+                    "FP": 174,
+                    "IoU": 0.8712916476494751,
+                    "TN": 63345,
+                    "TP": 1909,
+                    "n_pred": 2083,
+                    "n_ref": 2017
+                },
+                "2": {
+                    "Dice": 0.912202852614897,
+                    "FN": 66,
+                    "FP": 211,
+                    "IoU": 0.8385780885780886,
+                    "TN": 63820,
+                    "TP": 1439,
+                    "n_pred": 1650,
+                    "n_ref": 1505
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_146.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_146.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9003516998827668,
+                    "FN": 146,
+                    "FP": 194,
+                    "IoU": 0.8187633262260128,
+                    "TN": 63660,
+                    "TP": 1536,
+                    "n_pred": 1730,
+                    "n_ref": 1682
+                },
+                "2": {
+                    "Dice": 0.8917470525187567,
+                    "FN": 216,
+                    "FP": 87,
+                    "IoU": 0.804642166344294,
+                    "TN": 63985,
+                    "TP": 1248,
+                    "n_pred": 1335,
+                    "n_ref": 1464
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_160.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_160.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9203495630461923,
+                    "FN": 138,
+                    "FP": 181,
+                    "IoU": 0.8524514338575393,
+                    "TN": 63374,
+                    "TP": 1843,
+                    "n_pred": 2024,
+                    "n_ref": 1981
+                },
+                "2": {
+                    "Dice": 0.9020833333333333,
+                    "FN": 210,
+                    "FP": 166,
+                    "IoU": 0.8216318785578748,
+                    "TN": 63428,
+                    "TP": 1732,
+                    "n_pred": 1898,
+                    "n_ref": 1942
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_172.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_172.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8621794871794872,
+                    "FN": 194,
+                    "FP": 236,
+                    "IoU": 0.7577464788732394,
+                    "TN": 63761,
+                    "TP": 1345,
+                    "n_pred": 1581,
+                    "n_ref": 1539
+                },
+                "2": {
+                    "Dice": 0.7852233676975945,
+                    "FN": 647,
+                    "FP": 103,
+                    "IoU": 0.6463932107496464,
+                    "TN": 63415,
+                    "TP": 1371,
+                    "n_pred": 1474,
+                    "n_ref": 2018
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_173.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_173.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9100346020761245,
+                    "FN": 82,
+                    "FP": 178,
+                    "IoU": 0.834920634920635,
+                    "TN": 63961,
+                    "TP": 1315,
+                    "n_pred": 1493,
+                    "n_ref": 1397
+                },
+                "2": {
+                    "Dice": 0.8927492447129909,
+                    "FN": 99,
+                    "FP": 185,
+                    "IoU": 0.8062755798090041,
+                    "TN": 64070,
+                    "TP": 1182,
+                    "n_pred": 1367,
+                    "n_ref": 1281
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_180.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_180.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8998721772475501,
+                    "FN": 102,
+                    "FP": 133,
+                    "IoU": 0.8179705654531371,
+                    "TN": 64245,
+                    "TP": 1056,
+                    "n_pred": 1189,
+                    "n_ref": 1158
+                },
+                "2": {
+                    "Dice": 0.8476917484551072,
+                    "FN": 246,
+                    "FP": 173,
+                    "IoU": 0.7356466876971609,
+                    "TN": 63951,
+                    "TP": 1166,
+                    "n_pred": 1339,
+                    "n_ref": 1412
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_199.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_199.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9170114383061572,
+                    "FN": 103,
+                    "FP": 238,
+                    "IoU": 0.8467415730337079,
+                    "TN": 63311,
+                    "TP": 1884,
+                    "n_pred": 2122,
+                    "n_ref": 1987
+                },
+                "2": {
+                    "Dice": 0.8841433480608738,
+                    "FN": 286,
+                    "FP": 186,
+                    "IoU": 0.7923449186097669,
+                    "TN": 63263,
+                    "TP": 1801,
+                    "n_pred": 1987,
+                    "n_ref": 2087
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_207.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_207.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8269994327850255,
+                    "FN": 119,
+                    "FP": 491,
+                    "IoU": 0.7050290135396519,
+                    "TN": 63468,
+                    "TP": 1458,
+                    "n_pred": 1949,
+                    "n_ref": 1577
+                },
+                "2": {
+                    "Dice": 0.8391149959027588,
+                    "FN": 389,
+                    "FP": 200,
+                    "IoU": 0.7228235294117648,
+                    "TN": 63411,
+                    "TP": 1536,
+                    "n_pred": 1736,
+                    "n_ref": 1925
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_223.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_223.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9019040732706677,
+                    "FN": 162,
+                    "FP": 245,
+                    "IoU": 0.8213345039508341,
+                    "TN": 63258,
+                    "TP": 1871,
+                    "n_pred": 2116,
+                    "n_ref": 2033
+                },
+                "2": {
+                    "Dice": 0.8995354239256679,
+                    "FN": 238,
+                    "FP": 108,
+                    "IoU": 0.8174142480211082,
+                    "TN": 63641,
+                    "TP": 1549,
+                    "n_pred": 1657,
+                    "n_ref": 1787
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_224.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_224.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9067708333333333,
+                    "FN": 238,
+                    "FP": 120,
+                    "IoU": 0.8294425917103383,
+                    "TN": 63437,
+                    "TP": 1741,
+                    "n_pred": 1861,
+                    "n_ref": 1979
+                },
+                "2": {
+                    "Dice": 0.89536,
+                    "FN": 158,
+                    "FP": 169,
+                    "IoU": 0.8105446118192352,
+                    "TN": 63810,
+                    "TP": 1399,
+                    "n_pred": 1568,
+                    "n_ref": 1557
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_227.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_227.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8664556962025316,
+                    "FN": 180,
+                    "FP": 242,
+                    "IoU": 0.7643774427694026,
+                    "TN": 63745,
+                    "TP": 1369,
+                    "n_pred": 1611,
+                    "n_ref": 1549
+                },
+                "2": {
+                    "Dice": 0.8743034055727554,
+                    "FN": 255,
+                    "FP": 151,
+                    "IoU": 0.7766776677667767,
+                    "TN": 63718,
+                    "TP": 1412,
+                    "n_pred": 1563,
+                    "n_ref": 1667
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_234.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_234.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8636647904940588,
+                    "FN": 98,
+                    "FP": 338,
+                    "IoU": 0.7600440286186021,
+                    "TN": 63719,
+                    "TP": 1381,
+                    "n_pred": 1719,
+                    "n_ref": 1479
+                },
+                "2": {
+                    "Dice": 0.8226600985221675,
+                    "FN": 225,
+                    "FP": 351,
+                    "IoU": 0.698744769874477,
+                    "TN": 63624,
+                    "TP": 1336,
+                    "n_pred": 1687,
+                    "n_ref": 1561
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_235.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_235.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9295718287314926,
+                    "FN": 154,
+                    "FP": 198,
+                    "IoU": 0.868411214953271,
+                    "TN": 62861,
+                    "TP": 2323,
+                    "n_pred": 2521,
+                    "n_ref": 2477
+                },
+                "2": {
+                    "Dice": 0.9102598446289847,
+                    "FN": 207,
+                    "FP": 128,
+                    "IoU": 0.8352999016715831,
+                    "TN": 63502,
+                    "TP": 1699,
+                    "n_pred": 1827,
+                    "n_ref": 1906
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_242.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_242.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9006669006669007,
+                    "FN": 96,
+                    "FP": 187,
+                    "IoU": 0.8192848020434227,
+                    "TN": 63970,
+                    "TP": 1283,
+                    "n_pred": 1470,
+                    "n_ref": 1379
+                },
+                "2": {
+                    "Dice": 0.9014331675928634,
+                    "FN": 177,
+                    "FP": 160,
+                    "IoU": 0.8205537806176784,
+                    "TN": 63658,
+                    "TP": 1541,
+                    "n_pred": 1701,
+                    "n_ref": 1718
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_260.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_260.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8676716917922948,
+                    "FN": 196,
+                    "FP": 199,
+                    "IoU": 0.7662721893491125,
+                    "TN": 63846,
+                    "TP": 1295,
+                    "n_pred": 1494,
+                    "n_ref": 1491
+                },
+                "2": {
+                    "Dice": 0.8509418509418509,
+                    "FN": 135,
+                    "FP": 229,
+                    "IoU": 0.7405559515324305,
+                    "TN": 64133,
+                    "TP": 1039,
+                    "n_pred": 1268,
+                    "n_ref": 1174
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_274.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_274.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7952994692949203,
+                    "FN": 84,
+                    "FP": 456,
+                    "IoU": 0.6601636249213342,
+                    "TN": 63947,
+                    "TP": 1049,
+                    "n_pred": 1505,
+                    "n_ref": 1133
+                },
+                "2": {
+                    "Dice": 0.784180790960452,
+                    "FN": 242,
+                    "FP": 331,
+                    "IoU": 0.6449814126394052,
+                    "TN": 63922,
+                    "TP": 1041,
+                    "n_pred": 1372,
+                    "n_ref": 1283
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_282.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_282.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9321181646763043,
+                    "FN": 73,
+                    "FP": 143,
+                    "IoU": 0.8728663919952914,
+                    "TN": 63837,
+                    "TP": 1483,
+                    "n_pred": 1626,
+                    "n_ref": 1556
+                },
+                "2": {
+                    "Dice": 0.9166666666666666,
+                    "FN": 96,
+                    "FP": 178,
+                    "IoU": 0.8461538461538461,
+                    "TN": 63755,
+                    "TP": 1507,
+                    "n_pred": 1685,
+                    "n_ref": 1603
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_286.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_286.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.840945902170392,
+                    "FN": 161,
+                    "FP": 330,
+                    "IoU": 0.7255449972051425,
+                    "TN": 63747,
+                    "TP": 1298,
+                    "n_pred": 1628,
+                    "n_ref": 1459
+                },
+                "2": {
+                    "Dice": 0.8220858895705522,
+                    "FN": 368,
+                    "FP": 212,
+                    "IoU": 0.6979166666666666,
+                    "TN": 63616,
+                    "TP": 1340,
+                    "n_pred": 1552,
+                    "n_ref": 1708
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_290.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_290.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8584126984126984,
+                    "FN": 199,
+                    "FP": 247,
+                    "IoU": 0.7519466073414905,
+                    "TN": 63738,
+                    "TP": 1352,
+                    "n_pred": 1599,
+                    "n_ref": 1551
+                },
+                "2": {
+                    "Dice": 0.862012987012987,
+                    "FN": 173,
+                    "FP": 167,
+                    "IoU": 0.7574893009985735,
+                    "TN": 64134,
+                    "TP": 1062,
+                    "n_pred": 1229,
+                    "n_ref": 1235
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_297.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_297.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8575276057096687,
+                    "FN": 206,
+                    "FP": 323,
+                    "IoU": 0.7505893446487506,
+                    "TN": 63415,
+                    "TP": 1592,
+                    "n_pred": 1915,
+                    "n_ref": 1798
+                },
+                "2": {
+                    "Dice": 0.8228621291448517,
+                    "FN": 116,
+                    "FP": 290,
+                    "IoU": 0.6990363232023721,
+                    "TN": 64187,
+                    "TP": 943,
+                    "n_pred": 1233,
+                    "n_ref": 1059
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_298.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_298.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9188590418166713,
+                    "FN": 99,
+                    "FP": 194,
+                    "IoU": 0.8498975409836066,
+                    "TN": 63584,
+                    "TP": 1659,
+                    "n_pred": 1853,
+                    "n_ref": 1758
+                },
+                "2": {
+                    "Dice": 0.8721432983323039,
+                    "FN": 124,
+                    "FP": 290,
+                    "IoU": 0.7732749178532311,
+                    "TN": 63710,
+                    "TP": 1412,
+                    "n_pred": 1702,
+                    "n_ref": 1536
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_303.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_303.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9005994005994006,
+                    "FN": 213,
+                    "FP": 185,
+                    "IoU": 0.8191731031349386,
+                    "TN": 63335,
+                    "TP": 1803,
+                    "n_pred": 1988,
+                    "n_ref": 2016
+                },
+                "2": {
+                    "Dice": 0.8510502864417568,
+                    "FN": 183,
+                    "FP": 285,
+                    "IoU": 0.7407202216066482,
+                    "TN": 63731,
+                    "TP": 1337,
+                    "n_pred": 1622,
+                    "n_ref": 1520
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_304.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_304.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8347898460258011,
+                    "FN": 51,
+                    "FP": 346,
+                    "IoU": 0.7164285714285714,
+                    "TN": 64136,
+                    "TP": 1003,
+                    "n_pred": 1349,
+                    "n_ref": 1054
+                },
+                "2": {
+                    "Dice": 0.8470588235294118,
+                    "FN": 317,
+                    "FP": 73,
+                    "IoU": 0.7346938775510204,
+                    "TN": 64066,
+                    "TP": 1080,
+                    "n_pred": 1153,
+                    "n_ref": 1397
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_320.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_320.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8606294155427103,
+                    "FN": 261,
+                    "FP": 173,
+                    "IoU": 0.7553551296505073,
+                    "TN": 63762,
+                    "TP": 1340,
+                    "n_pred": 1513,
+                    "n_ref": 1601
+                },
+                "2": {
+                    "Dice": 0.8464849354375896,
+                    "FN": 169,
+                    "FP": 259,
+                    "IoU": 0.7338308457711443,
+                    "TN": 63928,
+                    "TP": 1180,
+                    "n_pred": 1439,
+                    "n_ref": 1349
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_321.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_321.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8949101038237528,
+                    "FN": 200,
+                    "FP": 215,
+                    "IoU": 0.80980751604033,
+                    "TN": 63354,
+                    "TP": 1767,
+                    "n_pred": 1982,
+                    "n_ref": 1967
+                },
+                "2": {
+                    "Dice": 0.8618042226487524,
+                    "FN": 269,
+                    "FP": 163,
+                    "IoU": 0.7571669477234402,
+                    "TN": 63757,
+                    "TP": 1347,
+                    "n_pred": 1510,
+                    "n_ref": 1616
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_338.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_338.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8911290322580645,
+                    "FN": 138,
+                    "FP": 240,
+                    "IoU": 0.8036363636363636,
+                    "TN": 63611,
+                    "TP": 1547,
+                    "n_pred": 1787,
+                    "n_ref": 1685
+                },
+                "2": {
+                    "Dice": 0.8456973293768546,
+                    "FN": 155,
+                    "FP": 261,
+                    "IoU": 0.7326478149100257,
+                    "TN": 63980,
+                    "TP": 1140,
+                    "n_pred": 1401,
+                    "n_ref": 1295
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_345.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_345.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8589135982500912,
+                    "FN": 297,
+                    "FP": 90,
+                    "IoU": 0.7527156549520767,
+                    "TN": 63971,
+                    "TP": 1178,
+                    "n_pred": 1268,
+                    "n_ref": 1475
+                },
+                "2": {
+                    "Dice": 0.8473132372214941,
+                    "FN": 174,
+                    "FP": 292,
+                    "IoU": 0.7350767481523593,
+                    "TN": 63777,
+                    "TP": 1293,
+                    "n_pred": 1585,
+                    "n_ref": 1467
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_350.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_350.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8840364638541446,
+                    "FN": 127,
+                    "FP": 420,
+                    "IoU": 0.7921732522796353,
+                    "TN": 62904,
+                    "TP": 2085,
+                    "n_pred": 2505,
+                    "n_ref": 2212
+                },
+                "2": {
+                    "Dice": 0.8499598823214763,
+                    "FN": 350,
+                    "FP": 211,
+                    "IoU": 0.7390697674418605,
+                    "TN": 63386,
+                    "TP": 1589,
+                    "n_pred": 1800,
+                    "n_ref": 1939
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_367.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_367.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8891472868217054,
+                    "FN": 296,
+                    "FP": 276,
+                    "IoU": 0.8004187020237264,
+                    "TN": 62670,
+                    "TP": 2294,
+                    "n_pred": 2570,
+                    "n_ref": 2590
+                },
+                "2": {
+                    "Dice": 0.832625318606627,
+                    "FN": 338,
+                    "FP": 253,
+                    "IoU": 0.7132459970887919,
+                    "TN": 63475,
+                    "TP": 1470,
+                    "n_pred": 1723,
+                    "n_ref": 1808
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_368.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_368.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9293580445876981,
+                    "FN": 152,
+                    "FP": 111,
+                    "IoU": 0.868038133467135,
+                    "TN": 63543,
+                    "TP": 1730,
+                    "n_pred": 1841,
+                    "n_ref": 1882
+                },
+                "2": {
+                    "Dice": 0.9100678733031674,
+                    "FN": 198,
+                    "FP": 120,
+                    "IoU": 0.8349766476388168,
+                    "TN": 63609,
+                    "TP": 1609,
+                    "n_pred": 1729,
+                    "n_ref": 1807
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_373.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_373.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8225519287833828,
+                    "FN": 239,
+                    "FP": 359,
+                    "IoU": 0.6985887096774194,
+                    "TN": 63552,
+                    "TP": 1386,
+                    "n_pred": 1745,
+                    "n_ref": 1625
+                },
+                "2": {
+                    "Dice": 0.824945295404814,
+                    "FN": 448,
+                    "FP": 192,
+                    "IoU": 0.702048417132216,
+                    "TN": 63388,
+                    "TP": 1508,
+                    "n_pred": 1700,
+                    "n_ref": 1956
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_376.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_376.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8937042459736457,
+                    "FN": 251,
+                    "FP": 112,
+                    "IoU": 0.8078348332451032,
+                    "TN": 63647,
+                    "TP": 1526,
+                    "n_pred": 1638,
+                    "n_ref": 1777
+                },
+                "2": {
+                    "Dice": 0.8995098039215687,
+                    "FN": 175,
+                    "FP": 153,
+                    "IoU": 0.8173719376391982,
+                    "TN": 63740,
+                    "TP": 1468,
+                    "n_pred": 1621,
+                    "n_ref": 1643
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_383.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_383.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8397480755773268,
+                    "FN": 309,
+                    "FP": 149,
+                    "IoU": 0.7237635705669482,
+                    "TN": 63878,
+                    "TP": 1200,
+                    "n_pred": 1349,
+                    "n_ref": 1509
+                },
+                "2": {
+                    "Dice": 0.849107952827336,
+                    "FN": 167,
+                    "FP": 332,
+                    "IoU": 0.7377824487651077,
+                    "TN": 63633,
+                    "TP": 1404,
+                    "n_pred": 1736,
+                    "n_ref": 1571
+                }
+            },
+            "prediction_file": "/home/si-hj/Desktop/nn-unet/predictions/hp/pad/scale0/hippocampus_387.nii.gz",
+            "reference_file": "/home/si-hj/Desktop/datasets/Task04_Hippocampus_test1/lowres/downsampled/scale0/labelsTs/hippocampus_387.nii.gz"
+        }
+    ]
+}

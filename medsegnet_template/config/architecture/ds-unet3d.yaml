@@ -1,0 +1,14 @@
+defaults:
+  - backbone-unet3d
+
+path:
+  _target_: models.DeepSupervision.DSUNet3D
+pp: DS
+name: ds-unet3d
+depth: 5
+dropout: 0.3
+drop_last: false
+ds_levels: 4
+
+fusion: "no_fuse_only_final" # Options: 'weighted_softmax', 'weighted_majority', 'no_fuse_only_final'
+

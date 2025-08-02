@@ -1,0 +1,13 @@
+defaults:
+  - unet3d
+
+path:
+  _target_: models.Hjalte_UNet.MSUNet3D
+pp: ms
+name: ms-unet3d
+cons_loss_start_epoch: 0
+num_multiscale_levels: 3
+# This is only for the ablation study -> enable only if you want to run the ablation study
+ablation:
+  num_gate_blocks: 2
+

@@ -1,0 +1,10 @@
+defaults:
+  - unet3d
+
+path:
+  _target_: models.MSUNet.MSUNet3D
+pp: ms
+name: ms-unet3d
+cons_loss_start_epoch: 0
+num_multiscale_levels: 3
+n_gate_blocks: 4

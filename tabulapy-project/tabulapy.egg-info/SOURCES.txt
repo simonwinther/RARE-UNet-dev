@@ -1,0 +1,16 @@
+README.md
+setup.py
+tabulapy/__init__.py
+tabulapy/core.py
+tabulapy/exceptions.py
+tabulapy/generator.py
+tabulapy.egg-info/PKG-INFO
+tabulapy.egg-info/SOURCES.txt
+tabulapy.egg-info/dependency_links.txt
+tabulapy.egg-info/top_level.txt
+tabulapy/styling/__init__.py
+tabulapy/styling/rules.py
+tabulapy/styling/styles.py
+tests/__init__.py
+tests/test_core.py
+tests/test_styling.py

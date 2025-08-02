@@ -1,0 +1,143 @@
+{
+  "Task01_BrainTumour": {
+    "params": 30790196,
+    "pad": [
+      {
+        "scale": 0,
+        "avg_time": 0.4828,
+        "avg_dice": 0.7124
+      },
+      {
+        "scale": 1,
+        "avg_time": 0.4655,
+        "avg_dice": 0.6696
+      },
+      {
+        "scale": 2,
+        "avg_time": 0.4741,
+        "avg_dice": 0.5828
+      },
+      {
+        "scale": 3,
+        "avg_time": 0.4322,
+        "avg_dice": 0.3990
+      }
+    ],
+    "upsampled": [
+      {
+        "scale": 0,
+        "avg_time": 0.4930,
+        "avg_dice": 0.7124
+      },
+      {
+        "scale": 1,
+        "avg_time": 0.5182,
+        "avg_dice": 0.6597
+      },
+      {
+        "scale": 2,
+        "avg_time": 0.5079,
+        "avg_dice": 0.5954
+      },
+      {
+        "scale": 3,
+        "avg_time": 0.5029,
+        "avg_dice": 0.4524
+      }
+    ]
+  },
+  "Task04_Hippocampus": {
+    "params": 5603177,
+    "pad": [
+      {
+        "scale": 0,
+        "avg_time": 0.0568,
+        "avg_dice": 0.8797
+      },
+      {
+        "scale": 1,
+        "avg_time": 0.0546,
+        "avg_dice": 0.8195
+      },
+      {
+        "scale": 2,
+        "avg_time": 0.0565,
+        "avg_dice": 0.5285
+      },
+      {
+        "scale": 3,
+        "avg_time": 0.0572,
+        "avg_dice": 0.0297
+      }
+    ],
+    "upsampled": [
+      {
+        "scale": 0,
+        "avg_time": 0.0504,
+        "avg_dice": 0.8797
+      },
+      {
+        "scale": 1,
+        "avg_time": 0.0609,
+        "avg_dice": 0.8197
+      },
+      {
+        "scale": 2,
+        "avg_time": 0.0481,
+        "avg_dice": 0.5972
+      },
+      {
+        "scale": 3,
+        "avg_time": 0.0466,
+        "avg_dice": 0.0551
+      }
+    ]
+  },
+  "Task05_Prostate": {
+    "params": 44578770,
+    "pad": [
+      {
+        "scale": 0,
+        "avg_time": 0.2470,
+        "avg_dice": 0.6585
+      },
+      {
+        "scale": 1,
+        "avg_time": 0.2516,
+        "avg_dice": 0.5963
+      },
+      {
+        "scale": 2,
+        "avg_time": 0.2600,
+        "avg_dice": 0.4822
+      },
+      {
+        "scale": 3,
+        "avg_time": 0.2852,
+        "avg_dice": 0.2747
+      }
+    ],
+    "upsampled": [
+      {
+        "scale": 0,
+        "avg_time": 0.2698,
+        "avg_dice": 0.6585
+      },
+      {
+        "scale": 1,
+        "avg_time": 0.2068,
+        "avg_dice": 0.5756
+      },
+      {
+        "scale": 2,
+        "avg_time": 0.2789,
+        "avg_dice": 0.4914
+      },
+      {
+        "scale": 3,
+        "avg_time": 0.1989,
+        "avg_dice": 0.3326
+      }
+    ]
+  }
+}

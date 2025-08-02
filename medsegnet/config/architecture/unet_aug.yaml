@@ -1,0 +1,7 @@
+defaults:
+  - unet
+
+path:
+  _target_: models.unet_aug.UNetAugmented
+pp: aug
+name: unet_aug

@@ -1,0 +1,14 @@
+defaults:
+  - unet
+
+path:
+  _target_: models.DeepSupervision.DSUNet3D
+pp: ds
+name: unet_ds
+depth: 5
+dropout: 0.3
+drop_last: false
+ds_levels: 4
+
+fusion: "no_fuse_only_final" # Options: 'weighted_softmax', 'weighted_majority', 'no_fuse_only_final'
+
